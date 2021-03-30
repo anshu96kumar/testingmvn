@@ -1,0 +1,10 @@
+pipeline{
+  agent any
+  statges{
+    statge("built"){
+      steps{
+        echo 'building application...!!'
+        }
+     }
+  }
+}
